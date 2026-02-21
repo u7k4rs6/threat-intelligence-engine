@@ -1,0 +1,23 @@
+{
+  "name": "threatsim-backend",
+  "version": "1.0.0",
+  "description": "ThreatSim Hybrid Threat Intelligence Engine Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.0",
+    "node-cron": "^3.0.2",
+    "axios": "^1.6.0",
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
